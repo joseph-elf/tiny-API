@@ -33,3 +33,7 @@ def reverse(prompt: Prompt):
     return {"response": reversed}
 
 
+@app.post("/assessperform")
+def reverse():
+    c = approx_10s_function()
+    return {"nb iteration": str(c)}
