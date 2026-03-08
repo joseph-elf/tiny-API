@@ -1,0 +1,8 @@
+numpy
+sentencepiece
+IPython
+matplotlib
+pydantic
+fastapi
+uvicorn
+gunicorn
