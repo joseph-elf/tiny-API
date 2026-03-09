@@ -5,7 +5,7 @@ from fastapi import FastAPI
 
 
 
-app = FastAPI(root_path="/api")
+app = FastAPI(root_path="/fastapi")
 
 app.add_middleware(
     CORSMiddleware,
@@ -33,7 +33,7 @@ def reverse(prompt: Prompt):
     return {"response": reversed}
 
 
-@app.post("/assessperform")
+@app.get("/assessperform")
 def reverse():
     c = approx_10s_function()
     return {"nb iteration": str(c)}
