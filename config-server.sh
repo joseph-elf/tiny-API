@@ -8,7 +8,7 @@ USERNAME=ubuntu
 IP=$(curl -s https://api.ipify.org)
 
 # SSH key file
-SSH_KEY=~/.ssh/api-rene.pem
+SSH_KEY=~/.ssh/key.pem
 
 #Git-Hub repository of this project
 GIT_HUB_servertoolbox=https://github.com/joseph-elf/server-toolbox.git
